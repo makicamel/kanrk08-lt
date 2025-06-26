@@ -1,0 +1,305 @@
+= PicoRuby on Rails
+
+: author
+   @makicamel
+
+: content-source
+   関西Ruby会議08 After Party: 叡電LT 🚃
+
+:date
+   2025.06.29
+
+:theme
+   theme
+
+= 自己紹介
+
+  * @makicamel / 川原万季
+  * Ruby 💎 とビール 🍻 とお酒が好き
+  * 好きな言葉は「エイってやってバーン」
+  * PicoPicoRuby始めました ((<URL:https://picopicoruby.connpass.com/>))
+     * PicoRuby・電子工作歴 1 ヶ月
+     * ピカピカの初心者
+
+  # image
+  # src = image/makicamel.png
+  # relative_width = 10
+  # align = right
+  # vertical_align = top
+  # relative_margin_right = 0
+  # relative_margin_top = 0
+
+= 大事なことをはじめに
+
+= PicoRuby Overflow会議やります
+
+\n\n\n\n\n\n\n\n\n
+(('tag:xx-small:　　'))\n((<URL:https://naniwarb.github.io/picorubyoverflowkaigi/>))
+　
+== プロパティ
+
+: background-image
+   image/picoruby-overflow.png
+: background-image-relative-height
+   76
+: background-image-align
+   center
+: background-image-vertical-align
+   middle
+: background-image-relative-margin-top
+   4
+
+= PicoRuby Overflow会議やります
+
+  * 7 月 19 日（土）大阪開催
+    * 於 アールスリーインスティテュート（gusuku Ashibinaa OSAKA）
+  * PicoRuby オンリーイベント
+    * 関西Ruby会議08やRubyKaigi 2025で採択されなかったプロポーザル
+    * 新作トーク
+  * 招待講演: @hasumikin
+
+(('tag:xx-small:　　'))\n((<URL:https://naniwarb.github.io/picorubyoverflowkaigi/>))
+
+= PicoRuby Overflow会議やります
+
+本編トーク以外も色々やります
+
+  * ショーケースセッション
+  * 作品持ち込みコーナー
+  * 関連書籍立ち読みコーナー
+  * 翌日電子工作ミートアップ・串カツ会
+
+\n
+(('tag:xx-small:　　'))\n((<URL:https://naniwarb.github.io/picorubyoverflowkaigi/>))
+
+  # image
+  # src = image/fukidashi-daikangei.png
+  # relative_width = 30
+  # align = right
+  # vertical_align = bottom
+  # relative_margin_top = 12
+
+== プロパティ
+
+: background-image
+   image/makicamel.png
+: background-image-relative-width
+   8
+: background-image-align
+   right
+: background-image-vertical-align
+   bottom
+: background-image-relative-margin-right
+   4
+
+= 叡電LT
+　
+= 叡電LT
+
+  # image
+  # src = image/eiden-lt.png
+  # relative_height = 90
+  # align = center
+  # vertical_align = middle
+  # relative_margin_right = 0
+  # relative_margin_top = 0
+
+(('tag:xx-small:　　'))((<URL:https://ruby-tuesday.doorkeeper.jp/events/185048>))
+
+= 叡電LT
+　
+  # image
+  # src = image/fukidashi-denshade-ruby.png
+  # relative_width = 40
+  # align = right
+  # vertical_align = bottom
+  # relative_margin_right = 4
+  # relative_margin_top = 12
+
+== プロパティ
+
+: background-image
+   image/makicamel.png
+: background-image-relative-width
+   8
+: background-image-align
+   right
+: background-image-vertical-align
+   bottom
+: background-image-relative-margin-right
+   4
+
+= 電車でRuby!
+
+* プラレール車両をPicoRubyで操作
+* 停止位置ゲー
+   * 叡電車両が修学院駅に到着時にプラレール車両がホームに停車したらゴール
+   * 脱線したり停車に失敗したりしたらゲームオーバー
+
+= 電車でRuby!
+
+デモ
+
+== プロパティ
+
+: background-image
+   image/demo.png
+: background-image-relative-height
+   84
+: background-image-align
+   center
+: background-image-vertical-align
+   middle
+: background-image-relative-margin-top
+   4
+
+= キミが運転!グリップマスコン
+
+\n\n\n\n\n\n\n\n\n\n
+(('tag:xx-small:　　'))\n((<URL:https://takaratomymall.jp/shop/g/g4904810915263/>))
+
+== プロパティ
+
+: background-image
+   image/prarail.png
+: background-image-relative-height
+   84
+: background-image-align
+   right
+: background-image-vertical-align
+   middle
+: background-image-relative-margin-top
+   8
+: background-image-relative-margin-right
+   4
+
+= キミが運転!グリップマスコン
+
+* 車両
+    * 赤外線受信モジュール搭載
+* コントローラ
+    * 赤外線信号送信
+* コントローラつくれそう！
+\n\n
+(('tag:xx-small:　　'))\n((<URL:https://takaratomymall.jp/shop/g/g4904810915263/>))
+
+== プロパティ
+
+: background-image
+   image/prarail.png
+: background-image-relative-height
+   84
+: background-image-align
+   right
+: background-image-vertical-align
+   middle
+: background-image-relative-margin-top
+   8
+: background-image-relative-margin-right
+   4
+
+= 案1.
+
+* 方法
+   * 1. 固定赤外線パターンを発信
+* 課題
+   * 赤外線パターンの解析が必要
+      * インターネットに転がっている情報を使う？
+      * 情報の信憑性が不明
+
+= 案2.
+
+   * 方法
+      * 1. コントローラの赤外線パターンを記憶
+      * 2. 記憶した信号を発信
+   * 課題
+      * μs単位の制御が必要
+         * Cでmrbgemsを書く必要がありそう
+      * 準備時間切れ
+
+  # image
+  # src = image/fukidashi-gakushu-rimocon.png
+  # relative_width = 30
+  # align = right
+  # vertical_align = bottom
+  # relative_margin_top = 12
+
+== プロパティ
+
+: background-image
+   image/makicamel.png
+: background-image-relative-width
+   8
+: background-image-align
+   right
+: background-image-vertical-align
+   bottom
+: background-image-relative-margin-right
+   4
+
+= 案3.
+
+* 方法
+   * 元々あるコントローラをPicoRubyで操作する
+* 課題
+   * なし！
+
+= 回路図
+
+   * 元基盤（赤外線デバイス）にスイッチが実装されている
+     * 前進用・後進用ふたつのスイッチがある
+   * 各スイッチをON/OFFするだけ
+　
+== プロパティ
+
+: background-image
+   image/circuit-diagram.png
+: background-image-relative-width
+   84
+: background-image-align
+   center
+: background-image-vertical-align
+   middle
+: background-image-relative-margin-top
+   8
+
+= 回路図
+
+   * 実装
+
+== プロパティ
+
+: background-image
+   image/pcb.jpg
+: background-image-relative-height
+   70
+: background-image-align
+   center
+: background-image-vertical-align
+   middle
+
+= 回路図
+
+* Raspberry Pi Picoにシリアル通信で接続
+* irbからスイッチを切り替える
+
+    # rouge ruby
+
+    forward = GPIO.new(8, GPIO::OUT)
+    back = GPIO.new(10, GPIO::OUT)
+    forward.write 1 # => 前進
+    back.write 1 # => 後進
+
+* PicoRubyで電車を操作できた🙌
+
+= Future Works
+
+* 学習リモコンgem作ると面白そう
+
+= 謝辞
+
+* @youchan
+* @kota_syan
+* @chobishiba
+* @bash0C7
+* @emorima
